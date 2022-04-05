@@ -18,9 +18,10 @@ from matplotlib import pyplot as plt
 sys.path.insert(0, '../util')
 
 from pytorch_data_loader import PytorchLoader
-from data_loader import UTKFace, UTKFace_C, Adience, Adience_C, CIFAR10, CIFAR10_C, \
-    CIFAR100, CIFAR100_C, CIFAR100super, CIFAR100super_C
-
+#from data_loader import UTKFace, UTKFace_C, Adience, Adience_C, CIFAR10, CIFAR10_C, \
+#    CIFAR100, CIFAR100_C, CIFAR100super, CIFAR100super_C
+from data_loader import UTKFace, Adience, CIFAR10, \
+    CIFAR100, CIFAR100super
 
 # In[ ]:
 

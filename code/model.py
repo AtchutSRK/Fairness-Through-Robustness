@@ -20,6 +20,7 @@ from pytorch_data_loader import PytorchLoader
 from custom_models import DeepCNN, UTKClassifier, AdienceClassifier
 from regularized_loss import RegularizedLoss
 import helper as hp
+from model_schema2 import MLP1
 
 
 # In[1]:
@@ -291,6 +292,7 @@ def train_model(model, num_epochs, device, data_loaders, criterion_kwargs={}, ch
 #                 time.sleep(10)
                 
                 torch.cuda.empty_cache()
+                print("Success")
 #                 print ("Emptied cache, going to sleep")
 #                 time.sleep(5)
 #                 break
